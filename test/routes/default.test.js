@@ -9,6 +9,6 @@ describe('GEt Endpoints', () => {
     expect(res.statusCode).toEqual(200)
     
     expect(res.body).toHaveProperty('message')
-    expect(res.body).toEqual({ "message": "Hello World!"})
+    expect(res.body).toEqual({ "message": "Olá, Mundo!"})
   })
 })
