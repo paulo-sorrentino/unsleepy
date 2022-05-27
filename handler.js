@@ -1,4 +1,4 @@
-const DEFAULT_MESSAGE = 'Hello World!'
+const DEFAULT_MESSAGE = 'Olá, Mundo!'
 
 module.exports = (req, res) => {
   res.send({
